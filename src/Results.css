@@ -1,0 +1,14 @@
+.results .word {
+  color: blueviolet;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.results .phonetics {
+  color: rgb(128, 171, 220);
+  margin-top: 10px;
+  margin-left: 50px;
+  text-align: left;
+}

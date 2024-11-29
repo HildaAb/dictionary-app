@@ -1,0 +1,19 @@
+.Meaning h3 {
+  color: blue;
+  text-align: justify;
+  margin-left: 50px;
+  font-size: 34px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .definition {
+  color: red;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.Meaning .exemple {
+  color: rgb(220, 221, 220);
+}
