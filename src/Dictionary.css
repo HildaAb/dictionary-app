@@ -2,17 +2,17 @@
   color: rgb(79, 31, 71);
   font-size: 25px;
   font-weight: bold;
-  border-radius: 8px;
-  padding: 10px 30px;
+  border-radius: 12px;
+  padding: 10px 70px;
   border: 2px solid rgb(165, 66, 99);
 }
 
-.Dictionary .SearchSubmit {
-  margin-left: 5px;
+.Dictionary .Submit {
+  margin-left: 12px;
   font-size: 25px;
   font-weight: bold;
-  border-radius: 8px;
-  padding: 10px 15px;
+  border-radius: 12px;
+  padding: 10px 50px;
   background-color: rgb(118, 44, 188);
   color: blanchedalmond;
   border: none;
