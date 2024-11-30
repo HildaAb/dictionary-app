@@ -1,14 +1,19 @@
 .results .word {
-  color: blueviolet;
+  color: rgb(49, 14, 109);
+  font-size: 35px;
+  font-weight: bold;
   text-transform: capitalize;
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 40px;
+  margin-left: 60px;
   text-align: left;
 }
 
 .results .phonetics {
-  color: rgb(128, 171, 220);
+  color: rgb(49, 14, 109);
+  opacity: 0.7;
+  font-size: 35px;
+  font-weight: bold;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
   text-align: left;
 }

@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div>
       <div className="App">
-        <img src={books} alt="books" className="fluid-left" width="250" />
+        <img src={books} alt="books" className="fluid-left" width="300" />
         <p>Dictionary</p>
         <Dictionary />
       </div>
