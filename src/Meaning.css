@@ -1,24 +1,16 @@
+.Meaning {
+  color: rgb(49, 14, 109);
+  text-align: left;
+  font-size: 15px;
+  margin-left: 20px;
+}
 .Meaning h3 {
   color: rgb(49, 14, 109);
   text-align: left;
-  font-size: 35px;
+  font-size: 30px;
   margin: 30px;
   margin-left: 20px;
   text-transform: capitalize;
   line-height: 1.5;
   font-weight: bold;
-}
-
-.Meaning .definition {
-  color: rgb(49, 14, 109);
-  text-align: left;
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.Meaning .exemple {
-  color: rgb(220, 221, 220);
-  text-align: left;
-  font-size: 20px;
-  margin-left: 20px;
 }

@@ -8,20 +8,21 @@
 }
 
 .Dictionary.Dictionary .SearchInput {
-  color: rgb(79, 31, 71);
-  font-size: 25px;
+  color: rgb(49, 14, 109);
+  font-size: 20px;
   font-weight: bold;
+  text-align: start;
   border-radius: 12px;
-  padding: 10px 70px;
+  padding: 10px 90px;
   border: 2px solid rgb(167, 70, 70);
 }
 
 .Dictionary .Submit {
   margin-left: 12px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 12px;
-  padding: 10px 40px;
+  padding: 10px 55px;
   background-color: rgb(49, 14, 109);
   color: rgb(239, 244, 245);
   border: none;
