@@ -26,3 +26,13 @@
   padding-top: 70px;
   border-radius: 12px;
 }
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+a {
+  color: rgb(49, 14, 109);
+  font-weight: bold;
+}
