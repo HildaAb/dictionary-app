@@ -3,7 +3,7 @@
   margin: 50px auto;
   max-width: 900px;
   min-height: 500px;
-  background-color: rgb(53, 53, 68);
+  background-color: rgb(109, 109, 163);
   border-radius: 12px;
 }
 .App h1 {
@@ -35,13 +35,13 @@
   border-radius: 12px;
 }
 footer {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
-  margin-top: -40px;
-  margin-bottom: 40px;
+  color: blanchedalmond;
+  margin-top: 10px;
 }
 
 a {
-  color: rgb(49, 14, 109);
+  color: rgb(158, 183, 50);
   font-weight: bold;
 }
