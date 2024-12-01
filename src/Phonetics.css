@@ -1,8 +1,8 @@
-.Phonetic {
+.Phonetics {
   margin: 15px;
 }
 
-.Phonetic a {
+.Phonetics a {
   font-size: 15px;
   font-weight: 500;
   color: rgb(49, 14, 109);
@@ -11,20 +11,19 @@
   padding: 10px 20px;
   margin-right: 13px;
   border-radius: 20px;
-  display: flex;
+
   margin-top: -10px;
-  margin-left: -13px;
+  margin-left: -535px;
   transition: all 450ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetics a:hover {
   background-color: rgb(49, 14, 109);
   color: rgb(250, 247, 247);
   border: none;
 }
 
-.Phonetic .text {
+.Phonetics .text {
   opacity: 0.8;
   color: rgb(23, 85, 23);
-  margin-left: -613px;
 }

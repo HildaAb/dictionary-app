@@ -2,14 +2,14 @@
   color: rgb(49, 14, 109);
   text-align: left;
   font-size: 15px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .Meaning h3 {
   color: rgb(49, 14, 109);
   text-align: left;
   font-size: 30px;
   margin: 30px;
-  margin-left: 20px;
+  margin-left: -5px;
   text-transform: capitalize;
   line-height: 1.5;
   font-weight: bold;

@@ -1,17 +1,17 @@
 .Dictionary section {
-  background: #dddcdf;
-  padding: 30px;
+  background: #eaeaeb;
   border-radius: 10px;
   box-shadow: rgba(103, 107, 111, 0.2) 0px 8px 24px;
   max-width: 780px;
-  margin: 30px 60px;
+  margin: 30px 70px;
+  padding: 30px;
 }
 
 .Dictionary.Dictionary .SearchInput {
   color: rgb(49, 14, 109);
   font-size: 20px;
   font-weight: bold;
-  text-align: start;
+  text-align: left;
   border-radius: 12px;
   padding: 10px 90px;
   border: 2px solid rgb(167, 70, 70);

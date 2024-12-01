@@ -8,7 +8,8 @@ export default function App() {
     <div>
       <div className="App">
         <img src={books} alt="books" className="fluid-left" width="300" />
-        <p>Dictionary</p>
+        <h5>English</h5>
+        <h1>Dictionary</h1>
         <Dictionary />
       </div>
       <footer>
