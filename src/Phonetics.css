@@ -11,7 +11,6 @@
   padding: 10px 20px;
   margin-right: 13px;
   border-radius: 20px;
-
   margin-top: -10px;
   margin-left: -535px;
   transition: all 450ms ease-in-out;
@@ -26,4 +25,16 @@
 .Phonetics .text {
   opacity: 0.8;
   color: rgb(23, 85, 23);
+}
+
+@media (max-width: 900px) {
+  .Phonetics a {
+    margin-left: -335px;
+  }
+}
+
+@media (max-width: 574px) {
+  .Phonetics a {
+    margin-left: -90px;
+  }
 }
