@@ -59,6 +59,10 @@
 }
 
 @media (max-width: 376px) {
+  .Dictionary .section {
+    margin: 20px;
+  }
+
   .Dictionary .Submit {
     padding: 8px 105x;
     font-size: 8px;

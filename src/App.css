@@ -48,8 +48,8 @@ a {
 
 @media (max-width: 900px) {
   .App {
-    max-height: 100px;
     margin: -100px auto;
+    max-height: 3000px;
   }
   .App h1 {
     font-size: 40px;
@@ -70,11 +70,14 @@ a {
 
   footer {
     font-size: 7px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 574px) {
+  .App {
+    max-height: 3000px;
+  }
   .App h1 {
     font-size: 30px;
     margin-left: 170px;
@@ -98,6 +101,9 @@ a {
 }
 
 @media (max-width: 350px) {
+  .App {
+    max-height: 3000px;
+  }
   footer {
     font-size: 7px;
     margin-top: 50px;
