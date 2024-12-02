@@ -1,10 +1,5 @@
 .App {
-  text-align: center;
-  margin: 50px auto;
-  max-width: 900px;
-  min-height: 500px;
   background-color: rgb(109, 109, 163);
-  border-radius: 12px;
 }
 .App h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -12,8 +7,8 @@
   color: rgb(248, 254, 244);
   text-align: center;
   padding: 20px;
-  margin-top: -320px;
-  margin-left: 350px;
+  margin-top: -510px;
+  margin-right: -390px;
 }
 .App h5 {
   font-family: serif;
@@ -21,19 +16,20 @@
   color: rgb(248, 254, 244);
   text-align: center;
   padding: 20px;
-  margin-top: -350px;
-  margin-left: 350px;
-  margin-bottom: 290px;
+  margin-top: -380px;
+  margin-right: -410px;
+  margin-bottom: 490px;
 }
 
-.fluid-left {
+.App .fluid-left {
+  width: 350px;
   display: flex;
   justify-content: left;
   margin-left: 70px;
-  margin-bottom: 150px;
+  margin-bottom: 170px;
   padding-top: 70px;
-  border-radius: 12px;
 }
+
 footer {
   font-size: 13px;
   text-align: center;
@@ -46,189 +42,97 @@ a {
   font-weight: bold;
 }
 
-@media (max-width: 900px) {
-  .App {
-    margin: -100px auto;
-    max-height: 3000px;
-  }
+@media (max-width: 1225px) {
   .App h1 {
-    font-size: 40px;
-    margin-left: 280px;
-  }
-
-  .App h5 {
-    font-size: 25px;
-    margin-left: 280px;
-  }
-
-  .fluid-left {
-    width: 170px;
-    display: flex;
-    padding-top: 150px;
-    padding-bottom: 100px;
-  }
-
-  footer {
-    font-size: 15px;
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 854px) {
-  .App {
-    max-height: 3000px;
-  }
-
-  .App h1 {
-    font-size: 50px;
-    margin-left: 267px;
-    margin-bottom: 70px;
+    font-size: 90px;
+    margin-bottom: 60px;
   }
 
   .App h5 {
     font-size: 45px;
-    margin-left: 270px;
-  }
-
-  .fluid-left {
-    width: 300px;
-    margin-left: 39px;
-    margin-bottom: 75px;
   }
 }
 
-@media (max-width: 574px) {
-  .App {
-    max-height: 3000px;
+@media (max-width: 1225px) {
+  .App h1 {
+    font-size: 90px;
+    margin-right: -150px;
+    margin-bottom: 60px;
   }
+
+  .App h5 {
+    font-size: 45px;
+    margin-right: -75px;
+  }
+}
+
+@media (max-width: 1102px) {
+  .App h1 {
+    font-size: 90px;
+    margin-right: -325px;
+    margin-bottom: 60px;
+  }
+
+  .App h5 {
+    font-size: 45px;
+    margin-right: -80px;
+  }
+}
+
+@media (max-width: 924px) {
+  .App h1 {
+    font-size: 50px;
+    margin-right: -215px;
+    margin-bottom: 60px;
+  }
+
+  .App h5 {
+    font-size: 25px;
+    margin-right: -80px;
+    margin-top: -310px;
+  }
+
+  .App .fluid-left {
+    width: 250px;
+  }
+}
+
+@media (max-width: 653px) {
   .App h1 {
     font-size: 30px;
-    margin-left: 170px;
-    margin-bottom: 70px;
+    margin-right: -180px;
+    margin-bottom: 60px;
   }
 
   .App h5 {
     font-size: 25px;
-    margin-left: 170px;
+    margin-right: -125px;
+    margin-top: -300px;
   }
 
-  .fluid-left {
-    width: 150px;
-    margin-left: 39px;
-  }
-
-  footer {
-    font-size: 8px;
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 541px) {
-  .App {
-    max-height: 3000px;
-  }
-  .App h1 {
-    font-size: 40px;
-    margin-left: 250px;
-  }
-
-  .App h5 {
-    font-size: 25px;
-    margin-left: 270px;
-    margin-top: -216px;
-  }
-
-  .fluid-left {
+  .App .fluid-left {
     width: 200px;
-    margin-bottom: -10px;
-  }
-
-  footer {
-    font-size: 15px;
-    margin-top: 20px;
   }
 }
 
-@media (max-width: 431px) {
-  .App {
-    max-height: 3000px;
-    min-height: 470px;
-  }
+@media (max-width: 515px) {
   .App h1 {
-    font-size: 28px;
-    margin-left: 170px;
-    margin-top: -315px;
-    margin-bottom: 10px;
-  }
-}
-
-.App h5 {
-  font-size: 25px;
-  margin-left: 170px;
-}
-
-.fluid-left {
-  width: 150px;
-  margin-left: 39px;
-}
-
-@media (max-width: 413px) {
-  .App {
-    max-height: 3000px;
-    min-height: 470px;
-  }
-  .App h1 {
-    font-size: 30px;
-    margin-left: 170px;
-    margin-top: -315px;
-    margin-bottom: 10px;
-  }
-
-  .App h5 {
-    font-size: 25px;
-    margin-left: 170px;
-  }
-
-  .fluid-left {
-    width: 150px;
-    margin-left: 39px;
-  }
-
-  footer {
-    font-size: 8px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 350px) {
-  .App {
-    max-height: 3000px;
-  }
-  footer {
-    font-size: 8px;
-    margin-top: 50px;
-  }
-}
-
-@media (max-width: 345px) {
-  .App {
-    max-height: 3000px;
-    min-height: 465px;
-  }
-  .App h1 {
-    font-size: 25px;
-    margin-left: 180px;
-    margin-top: -325px;
-    margin-bottom: -1px;
+    font-size: 20px;
+    margin-right: -170px;
+    margin-bottom: 20px;
   }
 
   .App h5 {
     font-size: 20px;
-    margin-left: 180px;
-    margin-top: -200px;
+    margin-right: -145px;
+    margin-top: -255px;
+  }
+
+  .App .fluid-left {
+    width: 110px;
   }
   footer {
-    font-size: 8px;
-    margin-top: -20px;
+    font-size: 10px;
+    margin-top: 10px;
   }
 }
