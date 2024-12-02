@@ -69,8 +69,31 @@ a {
   }
 
   footer {
-    font-size: 7px;
+    font-size: 15px;
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 854px) {
+  .App {
+    max-height: 3000px;
+  }
+
+  .App h1 {
+    font-size: 50px;
+    margin-left: 267px;
+    margin-bottom: 70px;
+  }
+
+  .App h5 {
+    font-size: 45px;
+    margin-left: 270px;
+  }
+
+  .fluid-left {
+    width: 300px;
+    margin-left: 39px;
+    margin-bottom: 75px;
   }
 }
 
@@ -95,8 +118,85 @@ a {
   }
 
   footer {
-    font-size: 7px;
-    margin-top: 40px;
+    font-size: 8px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 541px) {
+  .App {
+    max-height: 3000px;
+  }
+  .App h1 {
+    font-size: 40px;
+    margin-left: 250px;
+  }
+
+  .App h5 {
+    font-size: 25px;
+    margin-left: 270px;
+    margin-top: -216px;
+  }
+
+  .fluid-left {
+    width: 200px;
+    margin-bottom: -10px;
+  }
+
+  footer {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 431px) {
+  .App {
+    max-height: 3000px;
+    min-height: 470px;
+  }
+  .App h1 {
+    font-size: 28px;
+    margin-left: 170px;
+    margin-top: -315px;
+    margin-bottom: 10px;
+  }
+}
+
+.App h5 {
+  font-size: 25px;
+  margin-left: 170px;
+}
+
+.fluid-left {
+  width: 150px;
+  margin-left: 39px;
+}
+
+@media (max-width: 413px) {
+  .App {
+    max-height: 3000px;
+    min-height: 470px;
+  }
+  .App h1 {
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: -315px;
+    margin-bottom: 10px;
+  }
+
+  .App h5 {
+    font-size: 25px;
+    margin-left: 170px;
+  }
+
+  .fluid-left {
+    width: 150px;
+    margin-left: 39px;
+  }
+
+  footer {
+    font-size: 8px;
+    margin-top: -20px;
   }
 }
 
@@ -105,7 +205,30 @@ a {
     max-height: 3000px;
   }
   footer {
-    font-size: 7px;
+    font-size: 8px;
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 345px) {
+  .App {
+    max-height: 3000px;
+    min-height: 465px;
+  }
+  .App h1 {
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: -325px;
+    margin-bottom: -1px;
+  }
+
+  .App h5 {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: -200px;
+  }
+  footer {
+    font-size: 8px;
+    margin-top: -20px;
   }
 }
