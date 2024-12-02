@@ -45,6 +45,7 @@ a {
   color: rgb(158, 183, 50);
   font-weight: bold;
 }
+
 @media (max-width: 900px) {
   .App {
     max-height: 100px;
@@ -52,47 +53,53 @@ a {
   }
   .App h1 {
     font-size: 40px;
-    margin-left: 5px;
+    margin-left: 280px;
   }
 
   .App h5 {
     font-size: 25px;
-    margin-left: 5px;
+    margin-left: 280px;
   }
 
   .fluid-left {
-    width: 90px;
+    width: 170px;
     display: flex;
     padding-top: 150px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
   }
 
   footer {
     font-size: 7px;
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
+
 @media (max-width: 574px) {
-  .App {
-    max-height: 50px;
-  }
   .App h1 {
     font-size: 30px;
-    margin-left: 130px;
+    margin-left: 170px;
+    margin-bottom: 70px;
   }
 
   .App h5 {
     font-size: 25px;
-    margin-left: 150px;
+    margin-left: 170px;
   }
 
   .fluid-left {
-    width: 100px;
+    width: 150px;
     margin-left: 39px;
   }
 
   footer {
     font-size: 7px;
-    margin-top: 80px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    font-size: 7px;
+    margin-top: 50px;
   }
 }

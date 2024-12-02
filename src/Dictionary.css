@@ -34,26 +34,52 @@
   }
 
   .Dictionary .Submit {
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-size: 12px;
     margin: 5px;
   }
 
   .Dictionary .SearchInput {
-    padding: 10px 60px;
+    padding: 10px 70px;
     font-size: 12px;
   }
 }
 
 @media (max-width: 574px) {
   .Dictionary .Submit {
-    padding: 8px 10px;
+    padding: 8px 12px;
     font-size: 8px;
     margin: 5px;
   }
 
   .Dictionary .SearchInput {
-    padding: 8px 20px;
+    padding: 8px 35px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 376px) {
+  .Dictionary .Submit {
+    padding: 8px 105x;
+    font-size: 8px;
+    margin: 5px;
+  }
+
+  .Dictionary .SearchInput {
+    padding: 8px 10px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 350px) {
+  .Dictionary .Submit {
+    padding: 8px 8px;
+    font-size: 8px;
+    margin: 5px;
+  }
+
+  .Dictionary .SearchInput {
+    padding: 8px 10px;
     font-size: 8px;
   }
 }
