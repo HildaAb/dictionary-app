@@ -80,13 +80,14 @@
   }
 }
 
-@media (max-width: 653px) {
+@media (max-width: 660px) {
   .Dictionary .SearchInput {
     padding: 10px 15px;
     font-size: 12px;
   }
   .Dictionary .Submit {
-    padding: 10px 8px;
+    padding: 10px 82px;
+    margin-left: -1px;
     font-size: 12px;
   }
 }

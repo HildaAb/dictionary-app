@@ -135,7 +135,7 @@ a {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   .App {
     min-height: 750px;
     margin: 0;
